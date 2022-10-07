@@ -1,6 +1,6 @@
 <?php
 
-class Usuario{  
+class Caixa{  
 
     public function login($email, $senha){
     global $dbh;

@@ -5,14 +5,14 @@
     if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['senha']) && !empty($_POST['senha'])) {
 
         require_once 'configSql.php';
-        require_once 'caixa.class.php';
+        require_once 'Caixa.class.php';
 
-        $usuario = new Usuario();
+        $caixa = new Caixa();
 
         $email = addslashes($_POST['email']);
         $senha = addslashes($_POST['senha']);
 
-        if($usuario->login($email, $senha) == true){
+        if($caixa->login($email, $senha) == true){
                  $_SESSION['nomedousuario'] = 1;
                 
         switch($_SESSION['setor']){
@@ -37,7 +37,7 @@
        
         }else{
             $_SESSION['erro'] = 'erro';
-            header("location: ../login");
+            header("location: ../caixa");
             
         } 
     } 
