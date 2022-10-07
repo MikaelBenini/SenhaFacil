@@ -1,0 +1,159 @@
+    /* css pagina logado */
+    
+    .containeradm {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .senhachamada {
+        margin-top: 3em;
+        color: #fff;
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .botoessenha li {
+        height: 100px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botoessenha a {
+        font-size: 30px;
+        padding: 10px 30px;
+        color: #fff;
+        background: 0;
+        border: 1px solid #43ED9C;
+        box-shadow: 4px 2px 6px #3bcc97;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    
+    .botoessenha a:hover {
+        cursor: pointer;
+        color: #43ED9C;
+        border: 1px solid #fff;
+        box-shadow: 4px 2px 6px #fff;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .botoessenha {
+        display: flex;
+        width: 100%;
+        margin-top: 2em;
+        list-style: none;
+    }
+    
+    .historicochamados {
+        display: flex;
+        color: #fff;
+        font-size: 45px;
+        margin-top: 80px;
+        justify-content: center;
+    }
+    
+    .tabelasenhas {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .tabelasenhas td {
+        border: 1px solid #fff;
+    }
+    
+    #area-menu a {
+        border: 1px solid #43ED9C;
+        border-radius: 5px;
+    }
+    
+    #area-menu a:hover {
+        border: 1px solid #ffffff;
+        box-shadow: 4px 2px 6px #43ED9C;
+    }
+    
+    #area-menu form input {
+        font-size: 23px;
+        padding: 08px 12px;
+        color: #fff;
+        background: 0;
+        border: 1px solid #43ED9C;
+        box-shadow: 4px 2px 6px #3bcc97;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    
+    #area-menu form input:hover {
+        border: 1px solid #ffffff;
+        box-shadow: 4px 2px 6px #43ED9C;
+    }
+    
+    .plano {
+        border: 1px solid #ff00009d !important;
+        border-radius: 5px;
+    }
+    
+    .menulogado {
+        border: 1px solid #ff000000 !important;
+        border-radius: 5px;
+    }
+    
+    .menulogado:hover {
+        border: 1px solid #00000000 !important;
+        box-shadow: 4px 2px 6px #00000000 !important;
+    }
+    
+    .tabelapagamentos {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 5rem;
+    }
+    
+    .tabelapagamentos td {
+        border: 1px solid #fff;
+        border-radius: 10px;
+        text-transform: uppercase
+    }
+    
+    .pagamentos {
+        background-color: rgba(10, 12, 11, 0.548);
+    }
+    
+    .botaochamar {
+        display: flex;
+        width: 18%;
+        height: 50px;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: #fff;
+        background: 0;
+        border: 1px solid #43ED9C;
+        border-radius: 26px;
+    }
+    
+    .botaochamar:hover {
+        cursor: pointer;
+        color: #43ED9C;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .msgalert {
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .msgalert span {
+        background-color: #43ed9b0c;
+    }

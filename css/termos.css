@@ -1,0 +1,286 @@
+    /* css politica e privacidade ou termos de uso */
+    
+    .containertermos {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    @media screen and (min-width: 681px) {
+        .containertermos {
+            max-width: 1120px;
+            padding-left: 32px;
+            padding-right: 32px;
+            background: #0c100e70;
+            border-radius: 50px;
+        }
+    }
+    
+    .pt-15 {
+        margin-top: 9.5rem !important;
+        padding-top: 6rem;
+    }
+    /* texto "termos e condições" */
+    
+    .text1 {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+    }
+    
+    @media screen and (min-width: 681px) {
+        .text1 {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 600;
+            color: white;
+        }
+    }
+    /* texto "termos e condições" */
+    /* texto "Política de Privacidade" */
+    
+    .text2 {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        font-weight: 300;
+        color: white;
+    }
+    
+    @media screen and (min-width: 681px) {
+        .text2 {
+            font-size: 3rem;
+            line-height: 3.5rem;
+            font-weight: 300;
+        }
+    }
+    /* texto "Política de Privacidade" */
+    /* espaço texto "Termos e condições" e"Política de Privacidade"  */
+    
+    @media screen and (min-width: 681px) {
+        .ex1 {
+            margin-top: 1rem !important;
+            margin-left: 1rem;
+        }
+    }
+    /* espaço texto "Termos e condições" e "Política de Privacidade"  */
+    /* Conteudo */
+    
+    .conteudo {
+        padding: 60px 0 80px;
+    }
+    
+    @media screen and (min-width: 681px) {
+        .ex2 {
+            padding-top: 3rem !important;
+        }
+    }
+    /* Conteudo */
+    
+    .conteudo a,
+    .conteudo b {
+        color: #3dd58e;
+    }
+    
+    .conteudo p,
+    .conteudo ul,
+    .conteudo hr,
+    .conteudo blockquote {
+        margin-bottom: 20px;
+    }
+    
+    .conteudo a,
+    .conteudo b,
+    .conteudo strong {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .conteudo span {
+        font-size: 1rem;
+        font-family: "Work Sans", Verdana, Helvetica, sans-serif;
+        color: white;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .conteudo ul li {
+        list-style-position: inside;
+        font-size: 1rem;
+        font-family: "Work Sans", Verdana, Helvetica, sans-serif;
+        color: white;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    button,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* Barra Latera */
+    
+    .row.no-gutter-bottom>.col,
+    .row.no-gutter-bottom>[class*=col-],
+    [class*=row-].no-gutter-bottom>.col,
+    [class*=row-].no-gutter-bottom>[class*=col-] {
+        padding-bottom: 0;
+    }
+    
+    @media screen and (min-width: 681px) {
+        .mt-d-6 {
+            margin-top: 3rem !important;
+            margin-left: 50px;
+        }
+    }
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    
+    @media screen and (min-width: 681px) {
+        .row>.col-d-3,
+        [class*=row-]>.col-d-3 {
+            flex-basis: 25%;
+            max-width: 25%;
+        }
+    }
+    
+    .row,
+    [class*=row-] {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -16px;
+    }
+    
+    @media screen and (min-width: 681px) {
+        .row>.col-d-8,
+        [class*=row-]>.col-d-8 {
+            flex-basis: 66.66667%;
+            max-width: 66.66667%;
+        }
+    }
+    
+    .row.no-gutter-bottom>.col,
+    .row.no-gutter-bottom>[class*=col-],
+    [class*=row-].no-gutter-bottom>.col,
+    [class*=row-].no-gutter-bottom>[class*=col-] {
+        padding-bottom: 0;
+    }
+    
+    .row>.col,
+    .row>[class*=col-],
+    [class*=row-]>.col,
+    [class*=row-]>[class*=col-] {
+        padding: 0 16px 16px;
+        max-width: 100%;
+    }
+    
+    .menu-termos__nav ul li a {
+        color: #3dd58e;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    
+    .menu-termos__nav ul li.current-menu-item a {
+        font-weight: 600;
+    }
+    
+    .menu-termos__nav ul li {
+        display: block;
+        margin-top: 16px;
+    }

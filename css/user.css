@@ -1,0 +1,124 @@
+    /* css pagina logado */
+    
+    .containeradm {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .senhachamada {
+        margin-top: 3em;
+        color: #fff;
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .botoessenha:hover {
+        cursor: pointer;
+        color: #43ED9C;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .botoessenha {
+        display: flex;
+        width: 20%;
+        height: 70px;
+        margin-top: 8em;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: #fff;
+        background: 0;
+        border: 1px solid #43ED9C;
+        border-radius: 26px;
+    }
+    
+    .historicochamados {
+        display: flex;
+        color: #fff;
+        font-size: 45px;
+        margin-top: 80px;
+        justify-content: center;
+    }
+    
+    .tabelasenhas {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .tabelasenhas td {
+        border: 1px solid #fff;
+    }
+    
+    #area-menu a {
+        border: 1px solid #43ED9C;
+        border-radius: 5px;
+    }
+    
+    #area-menu a:hover {
+        border: 1px solid #ffffff;
+    }
+    
+    .size-y {
+        background: #f1c40f;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #ffffff;
+        border-right: 16px solid #43ed9c;
+        border-bottom: 16px solid #43ed9c;
+        border-left: 16px solid #43ed9c;
+        width: 300px;
+        height: 300px;
+        margin-top: 5em;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
+    
+    .senha {
+        margin-top: -4em;
+        font-size: 45px;
+        text-align: center;
+        border: #fff 1px;
+    }
+    
+    .msgalert {
+        margin-top: 2em;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .msgalert span {
+        background-color: #43ed9b0c;
+    }
+    
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }

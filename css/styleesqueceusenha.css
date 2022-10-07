@@ -1,0 +1,119 @@
+    /* css pagina esqueceu a senha */
+    
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* **** Layout **** */
+    
+    #caixalogin {
+        width: 30%;
+        height: 300px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 9px;
+        background-color: #fff;
+        margin: 0 auto;
+        margin-top: 13%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Encontresuaconta {
+        margin-bottom: 30px;
+        color: #58af9b;
+        font-size: 28px;
+        font-weight: bold;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    
+    .formulario {
+        width: 100%;
+    }
+    
+    .formulario div {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /*
+**** Formatação de LINKS ****
+*/
+    
+    #caixalogin input {
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 26px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    #caixalogin input:hover {
+        color: #fff;
+        transition: 0.5s ease-in-out;
+    }
+    
+    input.email {
+        width: 80%;
+        padding: 20px;
+        outline: 0;
+        background: #ecf0f1;
+        border-radius: 10px;
+    }
+    
+    input.email:focus {
+        border: 2px solid #58af9b !important;
+    }
+    
+    input.email::placeholder {
+        color: #7f8c8d;
+    }
+    
+    input.submit {
+        padding-left: 0 !important;
+        max-width: 100%;
+        color: rgb(255, 255, 255);
+        background-color: #58af9b;
+        border-radius: 5px;
+        height: 45px;
+        width: 40%;
+        background-position: 0 !important;
+        outline: none;
+    }
+    
+    input.submit1 {
+        text-align: center;
+        padding-left: 0 !important;
+        max-width: 100%;
+        color: rgb(255, 255, 255);
+        background-color: #58af9b;
+        border-radius: 5px;
+        height: 45px;
+        width: 40%;
+        background-position: 0 !important;
+        outline: none;
+    }
+    
+    input.submit1:hover,
+    input.submit:hover {
+        background-color: #fff;
+        border: 1px solid #58af9b !important;
+        color: #58af9b !important;
+    }
+    
+    .icon-modify {
+        color: #7f8c8d;
+        padding: 0 5px;
+    }
+    
+    .content {
+        flex: 1;
+        height: 49%;
+    }

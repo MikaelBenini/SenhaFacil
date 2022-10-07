@@ -1,0 +1,16 @@
+{
+    "host": "ftp.senhafacil.net.br",
+    "username": "senhafacil",
+    "password": "Reimisterio145",
+    "remotePath": "",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": true,
+    "autoDownload": true,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}

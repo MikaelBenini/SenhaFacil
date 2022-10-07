@@ -1,0 +1,79 @@
+    /* css menu hamburguer */
+    
+    .menu {
+        border-radius: 50%;
+        background-color: #43ED9C;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        box-shadow: 0 0 0 0 #43ED9C, 0 0 0 0 #43ED9C;
+        transition: box-shadow 1s cubic-bezier(.19, 1, .22, 1);
+    }
+    
+    .menu:hover {
+        box-shadow: 0 0 0 8px #43ED9C, 0 0 0 8px #43ED9C;
+    }
+    
+    .hamburguer {
+        position: relative;
+        display: block;
+        background: #000000;
+        width: 30px;
+        height: 2px;
+        top: 29px;
+        left: 15px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .hamburguer:before,
+    .hamburguer:after {
+        background: #000000;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .hamburguer:before {
+        top: -10px;
+    }
+    
+    .hamburguer:after {
+        bottom: -10px;
+    }
+    
+    .inputmenu {
+        display: none;
+    }
+    
+    input:checked~ul {
+        opacity: 1;
+    }
+    
+    input:checked~label .menu {
+        box-shadow: 0 0 0 530vw #43ED9C, 0 0 0 530vw #43ED9C;
+    }
+    
+    input:checked~label .appdownload {
+        pointer-events: none;
+        position: absolute;
+    }
+    
+    input:checked~label .hamburguer {
+        transform: rotate(45deg);
+    }
+    
+    input:checked~label .hamburguer:before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+    
+    input:checked~label .hamburguer:after {
+        transform: rotate(90deg);
+        bottom: 0;
+    }

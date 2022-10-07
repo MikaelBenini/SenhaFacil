@@ -1,0 +1,59 @@
+    /* css rodape do site */
+    
+    html {
+        height: 100% !important;
+    }
+    
+    body {
+        min-height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+    .footer {
+        margin-top: 50px;
+        padding: 35px;
+        background: #00000081;
+    }
+    
+    .footer a {
+        margin: 0 auto;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 17px;
+        padding: 0px 40px 0px 131px;
+    }
+    
+    .footer a:hover {
+        color: #43ED9C;
+    }
+    
+    .content {
+        flex: 1;
+    }
+    
+    span.copy {
+        color: #ffffff;
+        font-size: 14px;
+        padding: 15em;
+    }
+    
+    @media (max-width: 1257px) {
+        .footer a {
+            font-size: 10px;
+            padding: 0px 16px 0px 6px;
+        }
+        span.copy {
+            display: flex;
+        }
+    }
+    
+    @media (max-width: 1509px) {
+        .footer a {
+            padding: 0px 40px 0px 47px;
+        }
+        span.copy {
+            font-size: 12px;
+            padding: 12px;
+        }
+    }

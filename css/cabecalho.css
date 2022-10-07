@@ -1,0 +1,92 @@
+    /* css menu navegacao principal */
+    
+    a.buttonlogin {
+        width: 150px;
+        border-radius: 10px;
+        border: 1px solid #00ee99;
+        font-size: 25px;
+        color: #fff;
+        box-shadow: 4px 2px 6px #3bcc97;
+        text-align: center;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    a.buttonlogin:hover {
+        color: #00ee99;
+        border: 1px solid #fff;
+        box-shadow: 4px 2px 6px #ffffff;
+    }
+    
+    a.buttonlogin2 {
+        width: 150px;
+        border-radius: 10px;
+        border: 1px solid #ee0000;
+        font-size: 25px;
+        color: #fff;
+        box-shadow: 4px 2px 6px #ee0000;
+        text-align: center;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    a.buttonlogin2:hover {
+        color: #ee0000;
+        border: 1px solid #fff;
+        box-shadow: 4px 2px 6px #ffffff;
+    }
+    
+    .area-cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 4rem;
+    }
+    
+    #login {
+        margin-right: 8rem;
+    }
+    
+    #area-menu a {
+        margin-left: 80px;
+    }
+    
+    #area-menu a:link,
+    #area-menu a:visited {
+        color: rgb(255, 255, 255);
+        padding: 8px 12px;
+    }
+    
+    #area-menu a:hover {
+        color: #3bcc97;
+    }
+    
+    #area-menu {
+        font-size: 23px;
+        text-align: left;
+        margin: 0em 4em 0em 0em;
+    }
+    
+    #area-cabecalho a:hover {
+        text-decoration: none;
+    }
+    
+    #area-logo {
+        font-size: 32px;
+        width: 215px;
+    }
+    
+    .showdesktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .guiche {
+        color: #ffffff;
+        display: contents;
+    }

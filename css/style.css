@@ -1,0 +1,300 @@
+/* css geral do site aplicado na maioria das paginas */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.inicio {
+    font-size: 62.5%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #350EA2;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+
+/*
+**** Layout ****
+*/
+
+.container {
+    width: 95%;
+    max-width: 1980px;
+    margin: 0 auto;
+}
+
+#appleimg {
+    float: right;
+    display: flex;
+    margin-right: 26em;
+    margin-top: 25em;
+}
+
+#textomaior {
+    margin-left: 9rem;
+    width: 28rem;
+    padding: 3rem;
+    padding-top: 15rem;
+    font-size: 50px;
+}
+
+#textomenor {
+    width: 30rem;
+    font-size: 20px;
+}
+
+#pagamento {
+    font-size: 15px;
+    color: #3bcc97 !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 84em;
+    margin-top: -22em;
+}
+
+.row div {
+    padding: 10px 10px 10px 10px;
+}
+
+.item1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 6px 8px 0 rgb(41 54 65 / 20%);
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.item1 h1 {
+    color: #3bcc97;
+}
+
+.item1 h3 {
+    color: white;
+}
+
+.row div:hover {
+    color: #3bcc97;
+    border: 1px #43ED9C solid;
+}
+
+
+/*
+**** Formatação de LINKS ****
+*/
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    transition: 0.5s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#area-menu a:link,
+#area-menu a:visited {
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+}
+
+#area-menu a:hover {
+    color: #3bcc97;
+}
+
+#area-cabecalho a:hover {
+    text-decoration: none;
+}
+
+
+/*
+TEXTO SENHA FACIL COLOR VERDE
+*/
+
+.branco {
+    color: white;
+}
+
+.verde {
+    color: #43ED9C;
+}
+
+
+/*
+REPOSIVIDADE
+*/
+
+.showdesktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* @media (max-width: 375px) {
+    .appdownload img,
+    .appdownload a {
+        margin-left: 2.50rem;
+    }
+    #textomaior {
+        margin-left: 0rem;
+        padding: 3rem;
+        padding-top: 40rem;
+        font-size: 25px;
+    }
+    #textomenor {
+        width: 10rem;
+        font-size: 15px;
+    }
+} */
+
+@media (max-width: 612px) {
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 831px) {
+    .appdownload img,
+    .appdownload a {
+        width: 70%;
+        margin-left: -2.50rem;
+    }
+    .appdownload a {
+        padding: 0;
+    }
+    #textomaior {
+        margin-left: 0rem;
+        padding: 3rem;
+        padding-top: 16rem;
+        font-size: 25px;
+    }
+    #textomenor {
+        width: 30rem;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 990px) {
+    .showdesktop {
+        display: none !important;
+    }
+    ul.showmobile a {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #000;
+        text-decoration: none;
+    }
+    ul.showmobile {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        opacity: 0;
+        transition: 0.55s cubic-bezier(0, 1.07, 0, 1.02);
+    }
+    .showmobile {
+        display: block;
+    }
+    #textomaior {
+        margin: 0 auto;
+    }
+    #textomenor {
+        margin: 0 auto;
+    }
+    #area-logo,
+    #area-logo a {
+        margin: 0 auto;
+    }
+    #area-logo a:link {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 991px) {
+    .showdesktop {
+        display: flex;
+    }
+    .showmobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1031px) {
+    #area-menu {
+        font-size: 16px;
+    }
+    #area-menu a {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 1069px) {
+    #area-logo a {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 1114px) {
+    #area-menu a {
+        margin-right: 1em;
+        font-size: 20px;
+        margin: 0 0 0 0;
+    }
+}
+
+@media (max-width: 1212px) {
+    #area-menu {
+        font-size: 20px;
+        margin: 0 0 0 0;
+    }
+    #area-menu a {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1316px) {
+    #area-menu {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1393px) {
+    #appleimg {
+        display: none;
+    }
+}
+
+@media (max-width: 1669px) {
+    #area-logo {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 1980px) {
+    .container {
+        max-width: 95%;
+    }
+}
