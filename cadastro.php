@@ -39,7 +39,7 @@
                     </div>
                     <?php endif; ?>
                     <!-- FORMULÃRIO DE CADASTRO -->
-                    <form action="BancoDeDados/registro.php" id="register-form" action="post">
+                    <form action="BancoDeDados/registro.php" method="post">
                         <!-- BOX SENHA -->  
                         <div class="full-box spacing">
                             <label for="name">Informe seu Nome e Sobrenome</label>
@@ -83,7 +83,7 @@
                         </div>
                         <!-- REGISTRAR -->
                         <div class="full-box">
-                            <input id="btn-submit" type="submit" value="CONFIRMAR">
+                            <input type="submit" value="CONFIRMAR">
                         </div>
                     </form>
                 </div>

@@ -15,7 +15,7 @@ session_start();
     <link rel="icon" type="imagem/png" href="/imagens/favicon.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.1.0/vanilla-masker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.1.0/vanilla-masker.min.js"></script>
 </head>
 
 <body class="sign-in-js">
@@ -76,17 +76,13 @@ session_start();
                     <h2 class="title title-second">Login</h2>
                     <p>&nbsp;</p>
                     <form action="BancoDeDados/logar.php" method="post" class="form">
-                        <label for="tel">
-                            <h1 style="text-align: center;color: #58af9b;margin-bottom: 4px;">Telefone</h1>
-                        </label>
                         <label class="label-input" for="telefonelogin">
                             <i class="fas fa-phone icon-modify"></i>
-                            <input attrname="telephone1" id="telefone" type="text" name="telefone" placeholder="Numero do seu telefone" required>
+                            <input attrname="telephone1" id="telefone" type="text" name="telefone"
+                                placeholder="Digite seu Telefone!" required>
                         </label>
 
                         <button class="btn btn-second" type="submit">Logar</button>
-
-
 
                     </form>
                 </div><!-- second column -->
@@ -100,12 +96,12 @@ session_start();
 </html>
 <script>
 function inputHandler(masks, max, event) {
-	var c = event.target;
-	var v = c.value.replace(/\D/g, '');
-	var m = c.value.length > max ? 1 : 0;
-	VMasker(c).unMask();
-	VMasker(c).maskPattern(masks[m]);
-	c.value = VMasker.toPattern(v, masks[m]);
+    var c = event.target;
+    var v = c.value.replace(/\D/g, '');
+    var m = c.value.length > max ? 1 : 0;
+    VMasker(c).unMask();
+    VMasker(c).maskPattern(masks[m]);
+    c.value = VMasker.toPattern(v, masks[m]);
 }
 
 var telMask = ['+99 (99) 99999-9999', '+99 (99) 99999-9999'];

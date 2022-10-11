@@ -62,8 +62,6 @@ session_start();
             <div class="content second-content">
                 <div class="first-column">
                     <h2 class="title title-primary">Bem-vindo! </h2>
-                    <p class="description description-primary">Não tem uma conta?</p>
-                    <p class="description description-primary"><a style="color:white" href="cadastro">REGISTRE-SE</a></p>
                 </div>
 
                 <div class="second-column">
