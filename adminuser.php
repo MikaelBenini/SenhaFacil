@@ -24,7 +24,7 @@ $sessionid = $_SESSION['id_usuario'];
         $sql->execute();    
         $row_msg_cont = $sql->fetch(PDO::FETCH_ASSOC);
 
-        $sqla="SELECT sits_senha_id
+        $sqla="SELECT sits_senha_id, caixa
         FROM senhas_geradas
         WHERE id_usuario = :sessionid AND fila = 1";
         $sqla = $dbh->prepare($sqla);
@@ -46,7 +46,7 @@ $sessionid = $_SESSION['id_usuario'];
         ?>
 
     <?php if($aviso['sits_senha_id'] == 3){?>
-    <h1 class="msgalert">Chegou sua vez!</h1>
+    <h1 class="msgalert">chegou sua vez, dirija-se ao caixa:  <?php echo $aviso['caixa']?>  em ate 5 minutos.</h1>
     <?php }else if (!empty($data)){ ?>
 
     <h1 class="msgalert"> ainda há <?php echo $row_msg_cont['fila']?> senhas na sua frente.</h1>

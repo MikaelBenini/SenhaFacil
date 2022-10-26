@@ -10,8 +10,8 @@ use Twilio\Rest\Client;
 // ------------------------------------------Notificação via SMS------------------------------------------------------
            
 
-$sid = 'AC3396f554960c115b03fe1ecd2b1ace54';
-$token = 'c4e7a715e947019f3f69732e0942e321';
+$sid = 'AC9305d729b43085182ec95539dd67ae7f';
+$token = 'c876dd7ccac7dfd903393c88622c670a';
 $client = new Client($sid, $token);
 
         $sql="SELECT senhas_geradas.id_usuario, senhas.nome_senha, senhas_geradas.sits_senha_id, users.telefone, users.nome, senhas_geradas.fila, senhas_geradas.caixa
@@ -29,8 +29,8 @@ $client = new Client($sid, $token);
             $client->messages->create(
             $row_msg_cont['telefone'],
             [
-                'from' => '+19859806173',
-                'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ' chegou sua vez, dirija-se ao caixa ' .$row_msg_cont['caixa']. ' em ate 5 minutos.'
+                'from' => '+12058503202',
+                'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ', chegou sua vez, dirija-se ao caixa ' .$row_msg_cont['caixa']. ' em ate 5 minutos.'
             
             ]
         );
@@ -41,7 +41,7 @@ $client = new Client($sid, $token);
             $client->messages->create(
             $row_msg_cont['telefone'],
             [
-        'from' => '+19859806173',
+        'from' => '+12058503202',
         'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ' ainda há ' .$row_msg_cont['fila']. ' pessoas na sua frente.'
             ]             
          );
