@@ -18,23 +18,21 @@ if (!isset($_SESSION['nomedousuario'])) {
         <table class="tabelapagamentos">
             <thead>
                 <th>⠀⠀⠀⠀ID User⠀⠀⠀⠀</th>
-                <th>⠀⠀⠀⠀Email⠀⠀⠀⠀</th>
+                <th>⠀⠀⠀⠀Telefone⠀⠀⠀⠀</th>
                 <th>⠀⠀⠀⠀Nome⠀⠀⠀⠀</th>
-                <th>⠀⠀⠀⠀Usuario⠀⠀⠀⠀</th>
             </thead>
             <tbody>
 
                 <?php 
-        $sql="SELECT * FROM users";
+        $sql="SELECT * FROM users where id >=3";
         $sql = $dbh->prepare($sql);
         $sql->execute();
         while ($row_msg_cont = $sql->fetch(PDO::FETCH_ASSOC)) {
     ?>
                 <tr>
                     <td><?php echo $row_msg_cont['id']; ?> </td>
-                    <td><?php echo $row_msg_cont['email']; ?> </td>
+                    <td><?php echo $row_msg_cont['telefone']; ?> </td>
                     <td><?php echo $row_msg_cont['nome']; ?> </td>
-                    <td><?php echo $row_msg_cont['usuario']; ?> </td>
                 </tr>
                 <?php } ?>
             </tbody>

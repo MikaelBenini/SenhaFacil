@@ -122,3 +122,9 @@
             transform: rotate(360deg);
         }
     }
+
+    @media (max-width: 777px) {
+        .botoessenha{
+            width: 50%;
+        }
+    }

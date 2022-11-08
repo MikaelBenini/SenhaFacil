@@ -11,6 +11,7 @@
         cursor: pointer;
         box-shadow: 0 0 0 0 #43ED9C, 0 0 0 0 #43ED9C;
         transition: box-shadow 1s cubic-bezier(.19, 1, .22, 1);
+        z-index: 2;
     }
     
     .menu:hover {
@@ -28,6 +29,19 @@
         transition: 0.5s ease-in-out;
     }
     
+    .buttonLogin {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+
     .hamburguer:before,
     .hamburguer:after {
         background: #000000;

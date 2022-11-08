@@ -30,7 +30,7 @@ $client = new Client($sid, $token);
             $row_msg_cont['telefone'],
             [
                 'from' => '+12058503202',
-                'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ', chegou sua vez, dirija-se ao caixa ' .$row_msg_cont['caixa']. ' em ate 5 minutos.'
+                'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ' chegou sua vez, dirija-se ao caixa ' .$row_msg_cont['caixa']. ' em ate 5 minutos.'
             
             ]
         );

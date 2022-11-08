@@ -106,6 +106,9 @@ if (empty($data)) {
             $sql->bindParam(':session_id', $payment_info['external_reference']);
             $sql->execute();
 
+            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=1 WHERE id<=10");
+            $sql->execute();
+
         }
         else if($description == 'Plano Dois' && $status == 'approved'){
             $sql = $dbh->prepare("UPDATE users SET plano = :planodois
@@ -114,6 +117,9 @@ if (empty($data)) {
 
             $sql->bindParam(':planodois', $planodois);
             $sql->bindParam(':session_id', $payment_info['external_reference']);
+            $sql->execute();
+
+            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=1 WHERE id<=18");
             $sql->execute();
 
         }
@@ -127,6 +133,9 @@ if (empty($data)) {
             $sql->bindParam(':session_id', $payment_info['external_reference']);
             $sql->execute();
 
+            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=1 WHERE id>=3");
+            $sql->execute();
+
         }
 
         else{
@@ -136,6 +145,9 @@ if (empty($data)) {
 
             $sql->bindParam(':semplano', $semplano);
             $sql->bindParam(':session_id', $payment_info['external_reference']);
+            $sql->execute();
+
+            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=3 WHERE id>=3");
             $sql->execute();
 
         }

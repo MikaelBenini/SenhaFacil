@@ -214,6 +214,7 @@ REPOSIVIDADE
         list-style: none;
         opacity: 0;
         transition: 0.55s cubic-bezier(0, 1.07, 0, 1.02);
+        z-index: 3;
     }
     .showmobile {
         display: block;

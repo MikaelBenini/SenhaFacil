@@ -46,10 +46,8 @@ require_once 'header.php';
                 <p>&nbsp;</p>
                 <p>
                 <ul>
-                    <li>Senha: Utilizada para fazer login.</li>
-                    <li>Data Nascimento: Utilizado para verificar a idade do usuário.</li>
-                    <li>Nome completo: Utilizado para validar o usuário.</li>
-                    <li>E-mail: Utilizado para validar a conta e também informar o usuário.</li>
+                    <li>Nome</li>
+                    <li>Numero de telefone.</li>
                 </ul>
                 </p>
                 <p>&nbsp;</p>

@@ -30,16 +30,19 @@ $sessionid = $_SESSION['id_usuario'];
                 <a class="plano" href="adminlistauser">Lista de usuarios</a>
             </nav>
 
-            <?php elseif ($url == '/adminpagamentos') : ?>
+            <?php elseif ($url == '/pagamentos') : ?>
             <nav id="area-menu">
-                <a class="plano" href="admin">Menu</a>
-                <a class="plano" href="adminlistauser">Lista de usuarios</a>
+                <a class="plano" href="panel">Menu</a>
             </nav>
 
-            <?php elseif ($url == '/adminlistauser') : ?>
+            <?php elseif ($url == '/users') : ?>
             <nav id="area-menu">
-                <a class="plano" href="admin">Menu</a>
-                <a class="plano" href="adminpagamentos">Pagamentos</a>
+                <a class="plano" href="panel">Menu</a>
+            </nav>
+
+            <?php elseif ($url == '/caixas') : ?>
+            <nav id="area-menu">
+                <a class="plano" href="panel">Menu</a>
             </nav>
 
             <?php elseif ($url == '/historicouser') : ?>
@@ -52,10 +55,10 @@ $sessionid = $_SESSION['id_usuario'];
                 <form method="post">
                     <input type="submit" name="button" class="button" value="Liberar senhas" />
 
-                
-                <a class="plano" href="planos">Planos</a>
-                <a class="plano" href="adminSenha">Caixa</a>
-</form>
+
+                    <a class="plano" href="planos">Planos</a>
+                    <a class="plano" href="adminSenha">Caixa</a>
+                </form>
             </nav>
             <?php elseif ($url == '/adminuser') : ?>
 
@@ -94,10 +97,9 @@ $sessionid = $_SESSION['id_usuario'];
                 <div class="menu">
                     <span class="hamburguer"></span>
                 </div>
-            </label>
+            </label>-->
             <ul class="showmobile">
-                <a class="plano" href="planos">Plano Empresarial</a>
-                <a class="plano" href="adminsenha">Caixa</a>
+                <a class="plano" href="BancoDeDados/logout.php">Sair</a>
             </ul>
         </div>
     </div>
@@ -110,7 +112,7 @@ if(array_key_exists('button', $_POST)) {
     $sql = $dbh->prepare($sql);
     $sql->execute();
 
-    $sql1="UPDATE senhas SET sits_senha_id=1";
+    $sql1="UPDATE senhas SET sits_senha_id=1 WHERE sits_senha_id=2";
     $sql1 = $dbh->prepare($sql1);
     $sql1->execute();
   

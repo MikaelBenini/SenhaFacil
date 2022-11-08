@@ -72,12 +72,17 @@ $url = $_SERVER['REQUEST_URI'];
     <?php endif; ?>
 
     <!-- Area Admin -->
-    <?php if ($url == '/adminpagamentos') : ?>
+    <?php if ($url == '/pagamentos') : ?>
     <link rel="stylesheet" type="text/css" href="css/admin.css">
     <link rel="icon" type="imagem/png" href="/imagens/favicon.ico" />
     <?php endif; ?>
 
-    <?php if ($url == '/adminlistauser') : ?>
+    <?php if ($url == '/users') : ?>
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+    <link rel="icon" type="imagem/png" href="/imagens/favicon.ico" />
+    <?php endif; ?>
+
+    <?php if ($url == '/caixas') : ?>
     <link rel="stylesheet" type="text/css" href="css/admin.css">
     <link rel="icon" type="imagem/png" href="/imagens/favicon.ico" />
     <?php endif; ?>

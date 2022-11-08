@@ -25,9 +25,9 @@ require_once 'header.php';
 					<span class="hamburguer"></span>
 				</div>
 			</label>
-			<ul class="showmobile">
+				<ul class="showmobile">
 				<li><a href="index">Inicio</a></li>
-				<!-- <li><a href="sobre.php">Quem Somos</a></li> -->
+				<li><a href="sobre.php">Quem Somos</a></li>
 				<li><a href="login">Login</a></li>
 				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 				<a href="termos">TERMOS DE USO</a>

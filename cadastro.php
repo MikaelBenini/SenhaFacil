@@ -40,7 +40,7 @@
                         </div>
                         <?php endif; ?>
                         <!-- FORMULÃRIO DE CADASTRO -->
-                        <form action="BancoDeDados/registro.php" method="post" onsubmit="return verifica()">
+                        <form action="BancoDeDados/registro.php" method="post">
                             <!-- BOX SENHA -->  
                             <div class="full-box spacing">
                                 <label for="name">Informe seu Nome e Sobrenome</label>
@@ -55,7 +55,7 @@
                              <!-- BOX TELEFONE -->
                              <div class="full-box spacing">
                                 <label for="tel">Informe seu numero de telefone</label>
-                                <input attrname="telephone1" type="text" name="telefone" id="fone" placeholder="Digite seu numero de telefone" minlength="10" required>
+                                <input attrname="telephone1" type="text" name="telefone" id="fone" placeholder="Digite seu numero de telefone" required>
                             </div>
                             <!-- BOX E-MAIL 
                             <div class="full-box spacing">
@@ -79,7 +79,7 @@
                             -->
                             <!-- CHECKBOX E TERMOS -->
                             <div>
-                                <input type="checkbox" name="agreement" id="agreement" required>
+                                <input type="checkbox" name="agreement" id="agreement">
                                 <label for="agreement" id="agreement-label">Eu li e aceito os <a href="termos">termos de uso</a></label>
                             </div>
                             <!-- REGISTRAR -->
@@ -98,15 +98,6 @@
 </html>
 
 <script>
-
-function verifica() {
-    var telefone = document.querySelector("input[name='telefone']").value;
-    if (telefone.length != 19) {
-        alert("Telefone inválido");
-        return false;
-    }
-}
-
 function inputHandler(masks, max, event) {
 	var c = event.target;
 	var v = c.value.replace(/\D/g, '');
