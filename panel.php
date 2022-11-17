@@ -52,7 +52,7 @@ if (!isset($_SESSION['nomedousuario'])) {
 	<header class="menu-wrap">
 		<figure class="user">
 			<div class="user-avatar">
-				<img src="imagens\Logo.png" alt="Logo">
+				<img src="imagens\logo.png" alt="logo">
 			</div>
 			<figcaption>
 				Administrador
