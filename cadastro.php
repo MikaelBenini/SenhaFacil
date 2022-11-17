@@ -40,7 +40,7 @@
                         </div>
                         <?php endif; ?>
                         <!-- FORMULÃRIO DE CADASTRO -->
-                        <form action="BancoDeDados/registro.php" method="post">
+                        <form action="BancoDeDados/registro.php" method="post" onsubmit="return verifica()">
                             <!-- BOX SENHA -->  
                             <div class="full-box spacing">
                                 <label for="name">Informe seu Nome e Sobrenome</label>
@@ -98,6 +98,15 @@
 </html>
 
 <script>
+
+function verifica() {
+    var telefone = document.querySelector("input[name='telefone']").value;
+    if (telefone.length != 19) {
+        alert("Telefone inválido");
+        return false;
+    }
+}
+
 function inputHandler(masks, max, event) {
 	var c = event.target;
 	var v = c.value.replace(/\D/g, '');
@@ -112,3 +121,4 @@ var tel = document.querySelector('input[attrname=telephone1]');
 VMasker(tel).maskPattern(telMask[0]);
 tel.addEventListener('input', inputHandler.bind(undefined, telMask, 14), false);
 </script>
+

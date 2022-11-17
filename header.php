@@ -51,7 +51,7 @@ $url = $_SERVER['REQUEST_URI'];
     <?php endif; ?>
 
     <!-- Area logado Caixas -->
-    <?php if ($url == '/adminSenha') : ?>
+    <?php if ($url == '/chamar') : ?>
     <link rel="stylesheet" type="text/css" href="css/admin.css">
     <link rel="icon" type="imagem/png" href="/imagens/favicon.ico" />
     <?php endif; ?>
@@ -64,7 +64,7 @@ $url = $_SERVER['REQUEST_URI'];
     <?php endif; ?>
 
     <!-- Area logado -->
-    <?php if ($url == '/adminuser') : ?>
+    <?php if ($url == '/home') : ?>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/user.css">
     <link rel="icon" type="imagem/png" href="/imagens/favicon.ico" />

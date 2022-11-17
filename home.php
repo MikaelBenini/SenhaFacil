@@ -10,7 +10,7 @@ if (!isset($_SESSION['nomedousuario'])) {
 }
 $sessionid = $_SESSION['id_usuario'];
 ?>
-<!--<meta http-equiv="refresh" content="20; adminuser">-->
+<!--<meta http-equiv="refresh" content="20; home">-->
 <?php require_once 'menulogado.php'; ?>
 <!-- inicio conteudo da pagina -->
     <div class="containeradm">

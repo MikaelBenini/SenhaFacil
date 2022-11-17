@@ -1,588 +1,588 @@
 {
-  "ftp://senhafacil@ftp.senhafacil.net.br": {
-    "adminlistauser.php": {
-      "type": "-",
-      "size": 1330,
-      "lmtime": 0,
-      "modified": false
-    },
-    "adminmenu.php": {
-      "type": "-",
-      "size": 333,
-      "lmtime": 0,
-      "modified": false
-    },
-    "adminpagamentos.php": {
-      "type": "-",
-      "size": 2109,
-      "lmtime": 0,
-      "modified": false
-    },
-    "admin.php": {
-      "type": "-",
-      "size": 433,
-      "lmtime": 0,
-      "modified": false
-    },
-    "adminSenha.php": {
-      "type": "-",
-      "size": 1998,
-      "lmtime": 0,
-      "modified": false
-    },
-    "adminuser.php": {
-      "type": "-",
-      "size": 2925,
-      "lmtime": 0,
-      "modified": true
-    },
-    "ajuda.php": {
-      "type": "-",
-      "size": 140,
-      "lmtime": 0,
-      "modified": false
-    },
-    "atualizarSenha.php": {
-      "type": "-",
-      "size": 3619,
-      "lmtime": 0,
-      "modified": false
-    },
-    "BancoDeDados": {},
-    "cadastro.php": {
-      "type": "-",
-      "size": 5737,
-      "lmtime": 0,
-      "modified": true
-    },
-    "caixa.php": {
-      "type": "-",
-      "size": 6169,
-      "lmtime": 0,
-      "modified": false
-    },
-    "css": {},
-    "empresas.php": {
-      "type": "-",
-      "size": 110,
-      "lmtime": 0,
-      "modified": false
-    },
-    "footer.php": {
-      "type": "-",
-      "size": 371,
-      "lmtime": 0,
-      "modified": false
-    },
-    ".gitattributes": {
-      "type": "-",
-      "size": 66,
-      "lmtime": 0,
-      "modified": false
-    },
-    "header.php": {
-      "type": "-",
-      "size": 3359,
-      "lmtime": 0,
-      "modified": true
-    },
-    "historicoatendente.php": {
-      "type": "-",
-      "size": 1485,
-      "lmtime": 0,
-      "modified": false
-    },
-    "historicouser.php": {
-      "type": "-",
-      "size": 1648,
-      "lmtime": 0,
-      "modified": false
-    },
-    "imagens": {},
-    "index.php": {
-      "type": "-",
-      "size": 483,
-      "lmtime": 0,
-      "modified": false
-    },
-    "js": {},
-    "lib": {},
-    "login.php": {
-      "type": "-",
-      "size": 5255,
-      "lmtime": 0,
-      "modified": true
-    },
-    "menulogado.php": {
-      "type": "-",
-      "size": 3801,
-      "lmtime": 0,
-      "modified": true
-    },
-    "menu.php": {
-      "type": "-",
-      "size": 979,
-      "lmtime": 0,
-      "modified": true
-    },
-    "node_modules": {},
-    "notificacao.php": {
-      "type": "-",
-      "size": 1147,
-      "lmtime": 0,
-      "modified": false
-    },
-    "notification.php": {
-      "type": "-",
-      "size": 5931,
-      "lmtime": 0,
-      "modified": true
-    },
-    "package.json": {
-      "type": "-",
-      "size": 54,
-      "lmtime": 0,
-      "modified": false
-    },
-    "package-lock.json": {
-      "type": "-",
-      "size": 91598,
-      "lmtime": 0,
-      "modified": false
-    },
-    "planos.php": {
-      "type": "-",
-      "size": 4312,
-      "lmtime": 0,
-      "modified": false
-    },
-    "README.md": {
-      "type": "-",
-      "size": 25,
-      "lmtime": 0,
-      "modified": false
-    },
-    "recuperarSenha.php": {
-      "type": "-",
-      "size": 5111,
-      "lmtime": 0,
-      "modified": false
-    },
-    "sobre.php": {
-      "type": "-",
-      "size": 1091,
-      "lmtime": 0,
-      "modified": false
-    },
-    "termoscon.php": {
-      "type": "-",
-      "size": 3030,
-      "lmtime": 0,
-      "modified": false
-    },
-    "termos.php": {
-      "type": "-",
-      "size": 27582,
-      "lmtime": 0,
-      "modified": true
-    },
-    ".vscode": {},
-    "www": {
-      "adminmenu.php": {
-        "type": "-",
-        "size": 333,
-        "lmtime": 0,
-        "modified": false
-      },
-      "adminSenha.php": {
-        "type": "-",
-        "size": 1998,
-        "lmtime": 0,
-        "modified": false
-      },
-      "adminuser.php": {
-        "type": "-",
-        "size": 2925,
-        "lmtime": 0,
-        "modified": false
-      },
-      "ajuda.php": {
-        "type": "-",
-        "size": 140,
-        "lmtime": 0,
-        "modified": false
-      },
-      "atualizarSenha.php": {
-        "type": "-",
-        "size": 3619,
-        "lmtime": 0,
-        "modified": false
-      },
-      "BancoDeDados": {
-        "caixa.class.php": {
-          "type": "-",
-          "size": 613,
-          "lmtime": 0,
-          "modified": false
+    "ftp://senhafacil@ftp.senhafacil.net.br": {
+        "adminlistauser.php": {
+            "type": "-",
+            "size": 1330,
+            "lmtime": 0,
+            "modified": false
         },
-        "Caixa.class.php": {
-          "type": "-",
-          "size": 613,
-          "lmtime": 0,
-          "modified": false
+        "adminmenu.php": {
+            "type": "-",
+            "size": 333,
+            "lmtime": 0,
+            "modified": false
         },
-        "chamarSenha.php": {
-          "type": "-",
-          "size": 4089,
-          "lmtime": 0,
-          "modified": false
+        "adminpagamentos.php": {
+            "type": "-",
+            "size": 2109,
+            "lmtime": 0,
+            "modified": false
         },
-        "configSql.php": {
-          "type": "-",
-          "size": 387,
-          "lmtime": 0,
-          "modified": false
+        "admin.php": {
+            "type": "-",
+            "size": 433,
+            "lmtime": 0,
+            "modified": false
         },
-        "gerarSenha.php": {
-          "type": "-",
-          "size": 2999,
-          "lmtime": 0,
-          "modified": false
+        "chamar.php": {
+            "type": "-",
+            "size": 1998,
+            "lmtime": 0,
+            "modified": false
         },
-        "logar.php": {
-          "type": "-",
-          "size": 1023,
-          "lmtime": 0,
-          "modified": false
+        "home.php": {
+            "type": "-",
+            "size": 2925,
+            "lmtime": 0,
+            "modified": true
         },
-        "logarSql.php": {
-          "type": "-",
-          "size": 1108,
-          "lmtime": 0,
-          "modified": false
+        "ajuda.php": {
+            "type": "-",
+            "size": 140,
+            "lmtime": 0,
+            "modified": false
         },
-        "logout.php": {
-          "type": "-",
-          "size": 262,
-          "lmtime": 0,
-          "modified": false
+        "atualizarSenha.php": {
+            "type": "-",
+            "size": 3619,
+            "lmtime": 0,
+            "modified": false
         },
-        "lpsenhas.php": {
-          "type": "-",
-          "size": 470,
-          "lmtime": 0,
-          "modified": false
+        "BancoDeDados": {},
+        "cadastro.php": {
+            "type": "-",
+            "size": 5737,
+            "lmtime": 0,
+            "modified": true
         },
-        "permi.php": {
-          "type": "-",
-          "size": 388,
-          "lmtime": 0,
-          "modified": false
+        "caixa.php": {
+            "type": "-",
+            "size": 6169,
+            "lmtime": 0,
+            "modified": false
         },
-        "registro.class.php": {
-          "type": "-",
-          "size": 626,
-          "lmtime": 0,
-          "modified": false
+        "css": {},
+        "empresas.php": {
+            "type": "-",
+            "size": 110,
+            "lmtime": 0,
+            "modified": false
         },
-        "registro.php": {
-          "type": "-",
-          "size": 1049,
-          "lmtime": 0,
-          "modified": false
+        "footer.php": {
+            "type": "-",
+            "size": 371,
+            "lmtime": 0,
+            "modified": false
         },
-        "Usuario.class.php": {
-          "type": "-",
-          "size": 616,
-          "lmtime": 0,
-          "modified": false
+        ".gitattributes": {
+            "type": "-",
+            "size": 66,
+            "lmtime": 0,
+            "modified": false
+        },
+        "header.php": {
+            "type": "-",
+            "size": 3359,
+            "lmtime": 0,
+            "modified": true
+        },
+        "historicoatendente.php": {
+            "type": "-",
+            "size": 1485,
+            "lmtime": 0,
+            "modified": false
+        },
+        "historicouser.php": {
+            "type": "-",
+            "size": 1648,
+            "lmtime": 0,
+            "modified": false
+        },
+        "imagens": {},
+        "index.php": {
+            "type": "-",
+            "size": 483,
+            "lmtime": 0,
+            "modified": false
+        },
+        "js": {},
+        "lib": {},
+        "login.php": {
+            "type": "-",
+            "size": 5255,
+            "lmtime": 0,
+            "modified": true
+        },
+        "menulogado.php": {
+            "type": "-",
+            "size": 3801,
+            "lmtime": 0,
+            "modified": true
+        },
+        "menu.php": {
+            "type": "-",
+            "size": 979,
+            "lmtime": 0,
+            "modified": true
+        },
+        "node_modules": {},
+        "notificacao.php": {
+            "type": "-",
+            "size": 1147,
+            "lmtime": 0,
+            "modified": false
+        },
+        "notification.php": {
+            "type": "-",
+            "size": 5931,
+            "lmtime": 0,
+            "modified": true
+        },
+        "package.json": {
+            "type": "-",
+            "size": 54,
+            "lmtime": 0,
+            "modified": false
+        },
+        "package-lock.json": {
+            "type": "-",
+            "size": 91598,
+            "lmtime": 0,
+            "modified": false
+        },
+        "planos.php": {
+            "type": "-",
+            "size": 4312,
+            "lmtime": 0,
+            "modified": false
+        },
+        "README.md": {
+            "type": "-",
+            "size": 25,
+            "lmtime": 0,
+            "modified": false
+        },
+        "recuperarSenha.php": {
+            "type": "-",
+            "size": 5111,
+            "lmtime": 0,
+            "modified": false
+        },
+        "sobre.php": {
+            "type": "-",
+            "size": 1091,
+            "lmtime": 0,
+            "modified": false
+        },
+        "termoscon.php": {
+            "type": "-",
+            "size": 3030,
+            "lmtime": 0,
+            "modified": false
+        },
+        "termos.php": {
+            "type": "-",
+            "size": 27582,
+            "lmtime": 0,
+            "modified": true
+        },
+        ".vscode": {},
+        "www": {
+            "adminmenu.php": {
+                "type": "-",
+                "size": 333,
+                "lmtime": 0,
+                "modified": false
+            },
+            "chamar.php": {
+                "type": "-",
+                "size": 1998,
+                "lmtime": 0,
+                "modified": false
+            },
+            "home.php": {
+                "type": "-",
+                "size": 2925,
+                "lmtime": 0,
+                "modified": false
+            },
+            "ajuda.php": {
+                "type": "-",
+                "size": 140,
+                "lmtime": 0,
+                "modified": false
+            },
+            "atualizarSenha.php": {
+                "type": "-",
+                "size": 3619,
+                "lmtime": 0,
+                "modified": false
+            },
+            "BancoDeDados": {
+                "caixa.class.php": {
+                    "type": "-",
+                    "size": 613,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "Caixa.class.php": {
+                    "type": "-",
+                    "size": 613,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "chamarSenha.php": {
+                    "type": "-",
+                    "size": 4089,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "configSql.php": {
+                    "type": "-",
+                    "size": 387,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "gerarSenha.php": {
+                    "type": "-",
+                    "size": 2999,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "logar.php": {
+                    "type": "-",
+                    "size": 1023,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "logarSql.php": {
+                    "type": "-",
+                    "size": 1108,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "logout.php": {
+                    "type": "-",
+                    "size": 262,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "lpsenhas.php": {
+                    "type": "-",
+                    "size": 470,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "permi.php": {
+                    "type": "-",
+                    "size": 388,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "registro.class.php": {
+                    "type": "-",
+                    "size": 626,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "registro.php": {
+                    "type": "-",
+                    "size": 1049,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "Usuario.class.php": {
+                    "type": "-",
+                    "size": 616,
+                    "lmtime": 0,
+                    "modified": false
+                }
+            },
+            "cadastro.php": {
+                "type": "-",
+                "size": 5737,
+                "lmtime": 0,
+                "modified": false
+            },
+            "caixa.php": {
+                "type": "-",
+                "size": 6169,
+                "lmtime": 0,
+                "modified": false
+            },
+            "caixas.php": {
+                "type": "-",
+                "size": 1089,
+                "lmtime": 1667918519941,
+                "modified": false
+            },
+            "css": {
+                "admin.css": {
+                    "type": "-",
+                    "size": 3351,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "cabecalho.css": {
+                    "type": "-",
+                    "size": 1887,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "cadastro.css": {
+                    "type": "-",
+                    "size": 3363,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "footer.css": {
+                    "type": "-",
+                    "size": 1090,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "login.css": {
+                    "type": "-",
+                    "size": 10299,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "menu.css": {
+                    "type": "-",
+                    "size": 1937,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "panel.css": {
+                    "type": "-",
+                    "size": 8080,
+                    "lmtime": 1667925418144,
+                    "modified": false
+                },
+                "sobre.css": {
+                    "type": "-",
+                    "size": 2042,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "style.css": {
+                    "type": "-",
+                    "size": 4657,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "styleesqueceusenha.css": {
+                    "type": "-",
+                    "size": 2472,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "termos.css": {
+                    "type": "-",
+                    "size": 5252,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "trabalhenos.css": {
+                    "type": "-",
+                    "size": 2995,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "user.css": {
+                    "type": "-",
+                    "size": 2656,
+                    "lmtime": 0,
+                    "modified": false
+                }
+            },
+            "empresas.php": {
+                "type": "-",
+                "size": 110,
+                "lmtime": 0,
+                "modified": false
+            },
+            "footer.php": {
+                "type": "-",
+                "size": 371,
+                "lmtime": 0,
+                "modified": false
+            },
+            ".gitattributes": {
+                "type": "-",
+                "size": 66,
+                "lmtime": 0,
+                "modified": false
+            },
+            "header.php": {
+                "type": "-",
+                "size": 3539,
+                "lmtime": 1667918672051,
+                "modified": false
+            },
+            "historicoatendente.php": {
+                "type": "-",
+                "size": 1485,
+                "lmtime": 0,
+                "modified": false
+            },
+            "historicouser.php": {
+                "type": "-",
+                "size": 1648,
+                "lmtime": 0,
+                "modified": false
+            },
+            "imagens": {
+                "favicon.ico": {
+                    "type": "-",
+                    "size": 10806,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "imagem2.jpg": {
+                    "type": "-",
+                    "size": 531502,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "imagem3.jpg": {
+                    "type": "-",
+                    "size": 343285,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "imagem.jpg": {
+                    "type": "-",
+                    "size": 454482,
+                    "lmtime": 0,
+                    "modified": false
+                },
+                "jean.jpg": {
+                    "type": "-",
+                    "size": 56793,
+                    "lmtime": 1667915387257,
+                    "modified": false
+                },
+                "maikel.jpg": {
+                    "type": "-",
+                    "size": 34548,
+                    "lmtime": 1667915399088,
+                    "modified": false
+                },
+                "Mikael.png": {
+                    "type": "-",
+                    "size": 1540221,
+                    "lmtime": 1667915461812,
+                    "modified": false
+                }
+            },
+            "index.php": {
+                "type": "-",
+                "size": 483,
+                "lmtime": 0,
+                "modified": false
+            },
+            "js": {},
+            "lib": {},
+            "login.php": {
+                "type": "-",
+                "size": 5255,
+                "lmtime": 0,
+                "modified": false
+            },
+            "menulogado.php": {
+                "type": "-",
+                "size": 3797,
+                "lmtime": 1667918612034,
+                "modified": false
+            },
+            "menu.php": {
+                "type": "-",
+                "size": 979,
+                "lmtime": 0,
+                "modified": false
+            },
+            "node_modules": {},
+            "notificacao.php": {
+                "type": "-",
+                "size": 1147,
+                "lmtime": 0,
+                "modified": false
+            },
+            "notification.php": {
+                "type": "-",
+                "size": 5931,
+                "lmtime": 0,
+                "modified": false
+            },
+            "package.json": {
+                "type": "-",
+                "size": 54,
+                "lmtime": 0,
+                "modified": false
+            },
+            "package-lock.json": {
+                "type": "-",
+                "size": 91598,
+                "lmtime": 0,
+                "modified": false
+            },
+            "pagamentos.php": {
+                "type": "-",
+                "size": 2109,
+                "lmtime": 1663346767517,
+                "modified": false
+            },
+            "panel.php": {
+                "type": "-",
+                "size": 8199,
+                "lmtime": 1667925689968,
+                "modified": false
+            },
+            "planos.php": {
+                "type": "-",
+                "size": 4312,
+                "lmtime": 0,
+                "modified": false
+            },
+            "README.md": {
+                "type": "-",
+                "size": 25,
+                "lmtime": 0,
+                "modified": false
+            },
+            "recuperarSenha.php": {
+                "type": "-",
+                "size": 5111,
+                "lmtime": 0,
+                "modified": false
+            },
+            "sobre.php": {
+                "type": "-",
+                "size": 1091,
+                "lmtime": 0,
+                "modified": false
+            },
+            "termoscon.php": {
+                "type": "-",
+                "size": 3030,
+                "lmtime": 0,
+                "modified": false
+            },
+            "termos.php": {
+                "type": "-",
+                "size": 27582,
+                "lmtime": 0,
+                "modified": false
+            },
+            "users.php": {
+                "type": "-",
+                "size": 1222,
+                "lmtime": 1667918198726,
+                "modified": false
+            },
+            ".vscode": {}
         }
-      },
-      "cadastro.php": {
-        "type": "-",
-        "size": 5737,
-        "lmtime": 0,
-        "modified": false
-      },
-      "caixa.php": {
-        "type": "-",
-        "size": 6169,
-        "lmtime": 0,
-        "modified": false
-      },
-      "caixas.php": {
-        "type": "-",
-        "size": 1089,
-        "lmtime": 1667918519941,
-        "modified": false
-      },
-      "css": {
-        "admin.css": {
-          "type": "-",
-          "size": 3351,
-          "lmtime": 0,
-          "modified": false
-        },
-        "cabecalho.css": {
-          "type": "-",
-          "size": 1887,
-          "lmtime": 0,
-          "modified": false
-        },
-        "cadastro.css": {
-          "type": "-",
-          "size": 3363,
-          "lmtime": 0,
-          "modified": false
-        },
-        "footer.css": {
-          "type": "-",
-          "size": 1090,
-          "lmtime": 0,
-          "modified": false
-        },
-        "login.css": {
-          "type": "-",
-          "size": 10299,
-          "lmtime": 0,
-          "modified": false
-        },
-        "menu.css": {
-          "type": "-",
-          "size": 1937,
-          "lmtime": 0,
-          "modified": false
-        },
-        "panel.css": {
-          "type": "-",
-          "size": 8080,
-          "lmtime": 1667925418144,
-          "modified": false
-        },
-        "sobre.css": {
-          "type": "-",
-          "size": 2042,
-          "lmtime": 0,
-          "modified": false
-        },
-        "style.css": {
-          "type": "-",
-          "size": 4657,
-          "lmtime": 0,
-          "modified": false
-        },
-        "styleesqueceusenha.css": {
-          "type": "-",
-          "size": 2472,
-          "lmtime": 0,
-          "modified": false
-        },
-        "termos.css": {
-          "type": "-",
-          "size": 5252,
-          "lmtime": 0,
-          "modified": false
-        },
-        "trabalhenos.css": {
-          "type": "-",
-          "size": 2995,
-          "lmtime": 0,
-          "modified": false
-        },
-        "user.css": {
-          "type": "-",
-          "size": 2656,
-          "lmtime": 0,
-          "modified": false
-        }
-      },
-      "empresas.php": {
-        "type": "-",
-        "size": 110,
-        "lmtime": 0,
-        "modified": false
-      },
-      "footer.php": {
-        "type": "-",
-        "size": 371,
-        "lmtime": 0,
-        "modified": false
-      },
-      ".gitattributes": {
-        "type": "-",
-        "size": 66,
-        "lmtime": 0,
-        "modified": false
-      },
-      "header.php": {
-        "type": "-",
-        "size": 3539,
-        "lmtime": 1667918672051,
-        "modified": false
-      },
-      "historicoatendente.php": {
-        "type": "-",
-        "size": 1485,
-        "lmtime": 0,
-        "modified": false
-      },
-      "historicouser.php": {
-        "type": "-",
-        "size": 1648,
-        "lmtime": 0,
-        "modified": false
-      },
-      "imagens": {
-        "favicon.ico": {
-          "type": "-",
-          "size": 10806,
-          "lmtime": 0,
-          "modified": false
-        },
-        "imagem2.jpg": {
-          "type": "-",
-          "size": 531502,
-          "lmtime": 0,
-          "modified": false
-        },
-        "imagem3.jpg": {
-          "type": "-",
-          "size": 343285,
-          "lmtime": 0,
-          "modified": false
-        },
-        "imagem.jpg": {
-          "type": "-",
-          "size": 454482,
-          "lmtime": 0,
-          "modified": false
-        },
-        "jean.jpg": {
-          "type": "-",
-          "size": 56793,
-          "lmtime": 1667915387257,
-          "modified": false
-        },
-        "maikel.jpg": {
-          "type": "-",
-          "size": 34548,
-          "lmtime": 1667915399088,
-          "modified": false
-        },
-        "Mikael.png": {
-          "type": "-",
-          "size": 1540221,
-          "lmtime": 1667915461812,
-          "modified": false
-        }
-      },
-      "index.php": {
-        "type": "-",
-        "size": 483,
-        "lmtime": 0,
-        "modified": false
-      },
-      "js": {},
-      "lib": {},
-      "login.php": {
-        "type": "-",
-        "size": 5255,
-        "lmtime": 0,
-        "modified": false
-      },
-      "menulogado.php": {
-        "type": "-",
-        "size": 3797,
-        "lmtime": 1667918612034,
-        "modified": false
-      },
-      "menu.php": {
-        "type": "-",
-        "size": 979,
-        "lmtime": 0,
-        "modified": false
-      },
-      "node_modules": {},
-      "notificacao.php": {
-        "type": "-",
-        "size": 1147,
-        "lmtime": 0,
-        "modified": false
-      },
-      "notification.php": {
-        "type": "-",
-        "size": 5931,
-        "lmtime": 0,
-        "modified": false
-      },
-      "package.json": {
-        "type": "-",
-        "size": 54,
-        "lmtime": 0,
-        "modified": false
-      },
-      "package-lock.json": {
-        "type": "-",
-        "size": 91598,
-        "lmtime": 0,
-        "modified": false
-      },
-      "pagamentos.php": {
-        "type": "-",
-        "size": 2109,
-        "lmtime": 1663346767517,
-        "modified": false
-      },
-      "panel.php": {
-        "type": "-",
-        "size": 8199,
-        "lmtime": 1667925689968,
-        "modified": false
-      },
-      "planos.php": {
-        "type": "-",
-        "size": 4312,
-        "lmtime": 0,
-        "modified": false
-      },
-      "README.md": {
-        "type": "-",
-        "size": 25,
-        "lmtime": 0,
-        "modified": false
-      },
-      "recuperarSenha.php": {
-        "type": "-",
-        "size": 5111,
-        "lmtime": 0,
-        "modified": false
-      },
-      "sobre.php": {
-        "type": "-",
-        "size": 1091,
-        "lmtime": 0,
-        "modified": false
-      },
-      "termoscon.php": {
-        "type": "-",
-        "size": 3030,
-        "lmtime": 0,
-        "modified": false
-      },
-      "termos.php": {
-        "type": "-",
-        "size": 27582,
-        "lmtime": 0,
-        "modified": false
-      },
-      "users.php": {
-        "type": "-",
-        "size": 1222,
-        "lmtime": 1667918198726,
-        "modified": false
-      },
-      ".vscode": {}
-    }
-  },
-  "$version": 1
+    },
+    "$version": 1
 }

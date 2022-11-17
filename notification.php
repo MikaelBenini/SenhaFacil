@@ -4,7 +4,7 @@ global $dbh;
 
 include_once 'BancoDeDados/configSql.php';
 
-$access_token = "APP_USR-3606995753215615-061509-d56cdb3739f635f92051ba3e08818a02-1143232977";
+$access_token = "APP_USR-6327354842924854-111619-a929fa228fd7f9163ecdce2367b627bc-1240828911";
 
   if(isset($_REQUEST['data_id']) || isset($_REQUEST['payment_id'])){
     $payment_id = $_REQUEST['data_id'] ? $_REQUEST['data_id'] : $_REQUEST['payment_id'];
@@ -106,7 +106,7 @@ if (empty($data)) {
             $sql->bindParam(':session_id', $payment_info['external_reference']);
             $sql->execute();
 
-            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=1 WHERE id<=10");
+            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=1 WHERE id>=3");
             $sql->execute();
 
         }
@@ -133,7 +133,7 @@ if (empty($data)) {
             $sql->bindParam(':session_id', $payment_info['external_reference']);
             $sql->execute();
 
-            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=1 WHERE id>=3");
+            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=1 WHERE id<=10");
             $sql->execute();
 
         }
@@ -147,7 +147,7 @@ if (empty($data)) {
             $sql->bindParam(':session_id', $payment_info['external_reference']);
             $sql->execute();
 
-            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=3 WHERE id>=3");
+            $sql = $dbh->prepare("UPDATE senhas SET sits_senha_id=4 WHERE id>=3");
             $sql->execute();
 
         }

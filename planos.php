@@ -10,7 +10,7 @@ if (!isset($_SESSION['nomedousuario'])) {
     header('Location: login');
 }
 
-$access_token = 'APP_USR-3606995753215615-061509-d56cdb3739f635f92051ba3e08818a02-1143232977';
+$access_token = 'APP_USR-6327354842924854-111619-a929fa228fd7f9163ecdce2367b627bc-1240828911';
 
  require_once 'lib/vendor/autoload.php';
 MercadoPago\SDK::setAccessToken($access_token);

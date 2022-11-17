@@ -6,7 +6,7 @@
         break;
 
         case 1:
-            header("location: ./adminuser");
+            header("location: ./home");
             break;
 
             case 2:

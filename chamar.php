@@ -14,7 +14,7 @@ if (!isset($_SESSION['nomedousuario'])) {
 <?php require_once 'menulogado.php'; ?>
 <!-- inicio conteudo da pagina -->
 
-<!-- <meta http-equiv="refresh" content="3; adminSenha"> -->
+<!-- <meta http-equiv="refresh" content="3; chamar"> -->
 
 <div class="containeradm">
     <div class="senhachamada">

@@ -6,9 +6,8 @@ $sessionid = $_SESSION['id_usuario'];
 
 use Twilio\Rest\Client;
 
-
 // ------------------------------------------Notificação via SMS------------------------------------------------------
-           
+$i=0;
 
 $sid = 'AC9305d729b43085182ec95539dd67ae7f';
 $token = 'c876dd7ccac7dfd903393c88622c670a';
@@ -25,6 +24,7 @@ $client = new Client($sid, $token);
         $sql->execute();
 
         while ($row_msg_cont = $sql->fetch(PDO::FETCH_ASSOC)) {  
+          
         if($row_msg_cont['fila'] == 1){ 
             $client->messages->create(
             $row_msg_cont['telefone'],
@@ -37,21 +37,38 @@ $client = new Client($sid, $token);
     }
 
         else{   
-            $row_msg_cont['fila'] - 1;
+            $i++;
             $client->messages->create(
             $row_msg_cont['telefone'],
             [
         'from' => '+12058503202',
-        'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ' ainda há ' .$row_msg_cont['fila']. ' pessoas na sua frente.'
+        'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ' ainda há ' .$i. ' pessoas na sua frente.'
             ]             
          );
+        
     }   
 }
-    
-                         
-                
 
-                             
+                    
+                
+         $insert1 = "UPDATE senhas_geradas SET fila=1 where fila=2";
+         $insert1 = $dbh->prepare($insert1);
+         $insert1->execute();
+         $insert2 = "UPDATE senhas_geradas SET fila=2 where fila=3";
+         $insert2 = $dbh->prepare($insert2);
+         $insert2->execute(); 
+         $insert3 = "UPDATE senhas_geradas SET fila=3 where fila=4";
+         $insert3 = $dbh->prepare($insert3);
+         $insert3->execute();
+         $insert4 = "UPDATE senhas_geradas SET fila=4 where fila=5";
+         $insert4 = $dbh->prepare($insert4);
+         $insert4->execute();
+         $insert5 = "UPDATE senhas_geradas SET fila=5 where fila=6";
+         $insert5 = $dbh->prepare($insert5);
+         $insert5->execute();
+         $insert6 = "UPDATE senhas_geradas SET fila=6 where fila=7";
+         $insert6 = $dbh->prepare($insert6);
+         $insert6->execute();
  
     
                 
@@ -138,13 +155,6 @@ $retorna = ['status' => false, 'msg' => "<span>Não há senhas para chamar!</spa
 $retorna = ['status' => false, 'msg' => "<span style='color: #f00;'>Erro: Senha não chamada!</span>"];
 }
 
-// $sql = $dbo->prepare("SELECT fila from senhas_geradas");
-// $sql->execute();
 
-// while($row = $sql->fetchAll()){
-//    $insert = "INSERT INTO senha_geradas (fila) values (?);
-//    $query = $dbt->prepare($insert);
-//   $stmt->execute([$email, $senha]);
-// }
 
 echo json_encode($retorna);

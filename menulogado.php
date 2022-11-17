@@ -47,7 +47,7 @@ $sessionid = $_SESSION['id_usuario'];
 
             <?php elseif ($url == '/historicouser') : ?>
             <nav id="area-menu">
-                <a class="plano" href="adminuser">Menu</a>
+                <a class="plano" href="home">Menu</a>
             </nav>
 
             <?php elseif ($url == '/adminmenu') : ?>
@@ -57,10 +57,10 @@ $sessionid = $_SESSION['id_usuario'];
 
 
                     <a class="plano" href="planos">Planos</a>
-                    <a class="plano" href="adminSenha">Caixa</a>
+                    <a class="plano" href="chamar">Caixa</a>
                 </form>
             </nav>
-            <?php elseif ($url == '/adminuser') : ?>
+            <?php elseif ($url == '/home') : ?>
 
             <nav id="area-menu">
                 <a href="historicouser">Historico de senhas</a>
@@ -70,10 +70,10 @@ $sessionid = $_SESSION['id_usuario'];
 
             <nav id="area-menu">
                 <a href="adminmenu">Menu</a>
-                <a class="plano" href="adminSenha">Caixa</a>
+                <a class="plano" href="chamar">Caixa</a>
             </nav>
 
-            <?php elseif ($url == '/adminSenha') : ?>
+            <?php elseif ($url == '/chamar') : ?>
             <nav id="area-menu">
                 <h3 class="guiche">Guichê <?php echo $row_msg_cont['caixa'] ?> </h3>
                 <a href="historicoatendente">Historico de senhas</a>
@@ -83,7 +83,7 @@ $sessionid = $_SESSION['id_usuario'];
             <?php elseif ($url == '/historicoatendente') : ?>
             <nav id="area-menu">
                 <a href="adminmenu">Menu</a>
-                <a href="adminSenha">Caixa</a>
+                <a href="chamar">Caixa</a>
             </nav>
             <?php endif; ?>
 
