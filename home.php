@@ -10,7 +10,7 @@ if (!isset($_SESSION['nomedousuario'])) {
 }
 $sessionid = $_SESSION['id_usuario'];
 ?>
-<!--<meta http-equiv="refresh" content="20; home">-->
+<meta http-equiv="refresh" content="20; home">
 <?php require_once 'menulogado.php'; ?>
 <!-- inicio conteudo da pagina -->
     <div class="containeradm">
@@ -18,7 +18,7 @@ $sessionid = $_SESSION['id_usuario'];
         <?php
             $sql="SELECT fila
             FROM senhas_geradas
-            WHERE senhas_geradas.sits_senha_id = 2";
+            WHERE id_usuario = :sessionid AND sits_senha_id = 2";
             $sql = $dbh->prepare($sql);
             $sql->bindParam(':sessionid', $sessionid, PDO::PARAM_INT);
             $sql->execute();    
@@ -45,11 +45,13 @@ $sessionid = $_SESSION['id_usuario'];
             $data = $sqle->fetch(PDO::FETCH_ASSOC);
             ?>
     
-        <?php if($aviso['sits_senha_id'] == 3){?>
+        <?php if($row_msg_cont['fila'] == 1){?>
         <h1 class="msgalert">Chegou sua vez!</h1>
-        <?php }else if (!empty($data)){ ?>
-        
-        <h1 class="msgalert"> Ainda há <?php echo $row_msg_cont['fila']?> senha na sua frente!</h1>
+
+        <?php }else if (!empty($row_msg_cont)){ 
+            $pessoas = $row_msg_cont['fila'];
+            $pessoas = $pessoas - 1; ?>
+        <h1 class="msgalert"> Ainda há <?php echo $pessoas?> senha na sua frente!</h1>
         <?php }else{
             
         }?>

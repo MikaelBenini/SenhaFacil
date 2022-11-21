@@ -14,8 +14,6 @@ if (!isset($_SESSION['nomedousuario'])) {
 <?php require_once 'menulogado.php'; ?>
 <!-- inicio conteudo da pagina -->
 
-<!-- <meta http-equiv="refresh" content="3; chamar"> -->
-
 <div class="containeradm">
     <div class="senhachamada">
 
@@ -28,7 +26,6 @@ if (!isset($_SESSION['nomedousuario'])) {
         <button id="chamarsenha" class="botaochamar" type="button" onclick="chamarSenha(1)" >Chamar Senha</button>
 
         <script src="js/chamarSenha.js"></script>
-        <!-- <script src="js/notificacao.js"></script> -->
 
         <h1 class="historicochamados">Historico de Senhas</h1>
         <table class="tabelasenhas">

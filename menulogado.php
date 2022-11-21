@@ -112,7 +112,7 @@ if(array_key_exists('button', $_POST)) {
     $sql = $dbh->prepare($sql);
     $sql->execute();
 
-    $sql1="UPDATE senhas SET sits_senha_id=1 WHERE sits_senha_id=2";
+    $sql1="UPDATE senhas SET sits_senha_id=1 WHERE sits_senha_id!=4";
     $sql1 = $dbh->prepare($sql1);
     $sql1->execute();
   
