@@ -104,7 +104,7 @@ function inputHandler(masks, max, event) {
     c.value = VMasker.toPattern(v, masks[m]);
 }
 
-var telMask = ['+99 (99) 99999-9999', '+99 (99) 99999-9999'];
+var telMask = ['(99) 99999-9999', '(99) 99999-9999'];
 var tel = document.querySelector('input[attrname=telephone1]');
 VMasker(tel).maskPattern(telMask[0]);
 tel.addEventListener('input', inputHandler.bind(undefined, telMask, 14), false);
