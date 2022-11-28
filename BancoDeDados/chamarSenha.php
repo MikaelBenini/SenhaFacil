@@ -31,8 +31,8 @@ use Twilio\Rest\Client;
 
     $i=0;
 
-    $sid = 'AC3c40d99dd88574878966be7897de2797';
-    $token = '01df55a0b1672bd58ce9f6f40e4a328e';
+    $sid = 'ACf1ced9f51d328c3133c718314f134f58';
+    $token = '6e202cc7a03c77b32be42a2067d8c353';
     $client = new Client($sid, $token);
     
             $sqlsms="SELECT senhas_geradas.id_usuario, senhas.nome_senha, senhas_geradas.sits_senha_id, users.telefone, users.nome, senhas_geradas.fila, senhas_geradas.caixa
@@ -50,7 +50,7 @@ use Twilio\Rest\Client;
                 $client->messages->create(
                 $twilliodestino,
                 [
-                    'from' => '+14258427617',
+                    'from' => '+14302492809',
                     'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ' chegou sua vez, dirija-se ao caixa ' .$row_msg_cont['caixa']. ' em ate 5 minutos.'
                 
                 ]
@@ -60,9 +60,9 @@ use Twilio\Rest\Client;
             else{   
                 $i++;
                 $client->messages->create(
-                $row_msg_cont['telefone'],
+                $twilliodestino,
                 [
-            'from' => '+14258427617',
+            'from' => '+14302492809',
             'body' => 'Olá ' .$row_msg_cont['nome']. ' Sua senha é: ' .$row_msg_cont['nome_senha']. ' ainda há ' .$i. ' pessoas na sua frente.'
                 ]             
             );

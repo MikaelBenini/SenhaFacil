@@ -2,127 +2,126 @@
   "ftp://senhafacil@ftp.senhafacil.net.br": {
     "adminmenu.php": {
       "type": "-",
-      "size": 333,
+      "size": 353,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "ajuda.php": {
       "type": "-",
-      "size": 140,
+      "size": 147,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "atualizarSenha.php": {
       "type": "-",
-      "size": 3619,
+      "size": 3718,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "BancoDeDados": {},
     "cadastro.php": {
       "type": "-",
-      "size": 5854,
+      "size": 5846,
       "lmtime": 0,
       "modified": true
     },
     "caixa.php": {
       "type": "-",
-      "size": 6169,
+      "size": 6299,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "caixas.php": {
       "type": "-",
-      "size": 1089,
+      "size": 1129,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "chamar.php": {
       "type": "-",
-      "size": 1994,
+      "size": 1877,
       "lmtime": 0,
       "modified": true
     },
     "css": {},
     "empresas.php": {
       "type": "-",
-      "size": 110,
+      "size": 115,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "footer.php": {
       "type": "-",
-      "size": 371,
+      "size": 389,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     ".gitattributes": {
       "type": "-",
-      "size": 66,
+      "size": 68,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "header.php": {
       "type": "-",
-      "size": 3530,
+      "size": 3633,
       "lmtime": 0,
       "modified": true
     },
     "historicoatendente.php": {
       "type": "-",
-      "size": 1485,
+      "size": 1530,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "historicouser.php": {
       "type": "-",
-      "size": 1648,
+      "size": 1696,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "home.php": {
       "type": "-",
-      "size": 3007,
+      "size": 2995,
       "lmtime": 0,
       "modified": true
     },
     "imagens": {},
     "index.php": {
       "type": "-",
-      "size": 483,
+      "size": 508,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "js": {},
     "lib": {},
     "login.php": {
       "type": "-",
-      "size": 5255,
+      "size": 5247,
       "lmtime": 0,
       "modified": true
     },
     "menulogado.php": {
       "type": "-",
-      "size": 3772,
+      "size": 3891,
       "lmtime": 0,
       "modified": true
     },
     "menu.php": {
       "type": "-",
-      "size": 979,
+      "size": 1015,
       "lmtime": 0,
       "modified": true
     },
-    "node_modules": {},
     "notificacao.php": {
       "type": "-",
-      "size": 1147,
+      "size": 1184,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "notification.php": {
       "type": "-",
-      "size": 5931,
+      "size": 6087,
       "lmtime": 0,
       "modified": true
     },
@@ -140,21 +139,21 @@
     },
     "pagamentos.php": {
       "type": "-",
-      "size": 2109,
+      "size": 2170,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "panel.php": {
       "type": "-",
-      "size": 7988,
+      "size": 8199,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "planos.php": {
       "type": "-",
-      "size": 4312,
+      "size": 4487,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "README.md": {
       "type": "-",
@@ -164,309 +163,36 @@
     },
     "recuperarSenha.php": {
       "type": "-",
-      "size": 5111,
+      "size": 5233,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "sobre.php": {
       "type": "-",
-      "size": 1091,
+      "size": 1132,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "termoscon.php": {
       "type": "-",
-      "size": 3030,
+      "size": 3081,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "termos.php": {
       "type": "-",
-      "size": 27582,
+      "size": 28051,
       "lmtime": 0,
       "modified": true
     },
     "users.php": {
       "type": "-",
-      "size": 1222,
+      "size": 1264,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     ".vscode": {},
-    "www": {
-      "adminmenu.php": {
-        "type": "-",
-        "size": 333,
-        "lmtime": 0,
-        "modified": false
-      },
-      "ajuda.php": {
-        "type": "-",
-        "size": 140,
-        "lmtime": 0,
-        "modified": false
-      },
-      "atualizarSenha.php": {
-        "type": "-",
-        "size": 3619,
-        "lmtime": 0,
-        "modified": false
-      },
-      "BancoDeDados": {
-        "caixa.class.php": {
-          "type": "-",
-          "size": 613,
-          "lmtime": 0,
-          "modified": false
-        },
-        "Caixa.class.php": {
-          "type": "-",
-          "size": 613,
-          "lmtime": 0,
-          "modified": false
-        },
-        "chamarSenha.php": {
-          "type": "-",
-          "size": 5092,
-          "lmtime": 1669049552221,
-          "modified": false
-        },
-        "configSql.php": {
-          "type": "-",
-          "size": 387,
-          "lmtime": 0,
-          "modified": false
-        },
-        "gerarSenha.php": {
-          "type": "-",
-          "size": 2999,
-          "lmtime": 0,
-          "modified": false
-        },
-        "logar.php": {
-          "type": "-",
-          "size": 1015,
-          "lmtime": 0,
-          "modified": false
-        },
-        "logarSql.php": {
-          "type": "-",
-          "size": 1100,
-          "lmtime": 0,
-          "modified": false
-        },
-        "logout.php": {
-          "type": "-",
-          "size": 262,
-          "lmtime": 0,
-          "modified": false
-        },
-        "lpsenhas.php": {
-          "type": "-",
-          "size": 470,
-          "lmtime": 0,
-          "modified": false
-        },
-        "permi.php": {
-          "type": "-",
-          "size": 380,
-          "lmtime": 0,
-          "modified": false
-        },
-        "registro.class.php": {
-          "type": "-",
-          "size": 626,
-          "lmtime": 0,
-          "modified": false
-        },
-        "registro.php": {
-          "type": "-",
-          "size": 1049,
-          "lmtime": 0,
-          "modified": false
-        },
-        "Usuario.class.php": {
-          "type": "-",
-          "size": 616,
-          "lmtime": 0,
-          "modified": false
-        }
-      },
-      "cadastro.php": {
-        "type": "-",
-        "size": 5846,
-        "lmtime": 1669049586213,
-        "modified": false
-      },
-      "caixa.php": {
-        "type": "-",
-        "size": 6169,
-        "lmtime": 0,
-        "modified": false
-      },
-      "caixas.php": {
-        "type": "-",
-        "size": 1089,
-        "lmtime": 0,
-        "modified": false
-      },
-      "chamar.php": {
-        "type": "-",
-        "size": 1877,
-        "lmtime": 1669033244325,
-        "modified": false
-      },
-      "css": {},
-      "empresas.php": {
-        "type": "-",
-        "size": 110,
-        "lmtime": 0,
-        "modified": false
-      },
-      "footer.php": {
-        "type": "-",
-        "size": 371,
-        "lmtime": 0,
-        "modified": false
-      },
-      ".gitattributes": {
-        "type": "-",
-        "size": 66,
-        "lmtime": 0,
-        "modified": false
-      },
-      "header.php": {
-        "type": "-",
-        "size": 3530,
-        "lmtime": 0,
-        "modified": false
-      },
-      "historicoatendente.php": {
-        "type": "-",
-        "size": 1485,
-        "lmtime": 0,
-        "modified": false
-      },
-      "historicouser.php": {
-        "type": "-",
-        "size": 1648,
-        "lmtime": 0,
-        "modified": false
-      },
-      "home.php": {
-        "type": "-",
-        "size": 2995,
-        "lmtime": 1669033215049,
-        "modified": false
-      },
-      "imagens": {},
-      "index.php": {
-        "type": "-",
-        "size": 483,
-        "lmtime": 0,
-        "modified": false
-      },
-      "js": {},
-      "lib": {},
-      "login.php": {
-        "type": "-",
-        "size": 5247,
-        "lmtime": 1669047978858,
-        "modified": false
-      },
-      "menulogado.php": {
-        "type": "-",
-        "size": 3772,
-        "lmtime": 0,
-        "modified": false
-      },
-      "menu.php": {
-        "type": "-",
-        "size": 979,
-        "lmtime": 0,
-        "modified": false
-      },
-      "node_modules": {},
-      "notificacao.php": {
-        "type": "-",
-        "size": 1147,
-        "lmtime": 0,
-        "modified": false
-      },
-      "notification.php": {
-        "type": "-",
-        "size": 5931,
-        "lmtime": 0,
-        "modified": false
-      },
-      "package.json": {
-        "type": "-",
-        "size": 59,
-        "lmtime": 0,
-        "modified": false
-      },
-      "package-lock.json": {
-        "type": "-",
-        "size": 93773,
-        "lmtime": 0,
-        "modified": false
-      },
-      "pagamentos.php": {
-        "type": "-",
-        "size": 2109,
-        "lmtime": 0,
-        "modified": false
-      },
-      "panel.php": {
-        "type": "-",
-        "size": 7988,
-        "lmtime": 0,
-        "modified": false
-      },
-      "planos.php": {
-        "type": "-",
-        "size": 4312,
-        "lmtime": 0,
-        "modified": false
-      },
-      "README.md": {
-        "type": "-",
-        "size": 27,
-        "lmtime": 0,
-        "modified": false
-      },
-      "recuperarSenha.php": {
-        "type": "-",
-        "size": 5111,
-        "lmtime": 0,
-        "modified": false
-      },
-      "sobre.php": {
-        "type": "-",
-        "size": 1091,
-        "lmtime": 0,
-        "modified": false
-      },
-      "termoscon.php": {
-        "type": "-",
-        "size": 3030,
-        "lmtime": 0,
-        "modified": false
-      },
-      "termos.php": {
-        "type": "-",
-        "size": 27582,
-        "lmtime": 0,
-        "modified": false
-      },
-      "users.php": {
-        "type": "-",
-        "size": 1222,
-        "lmtime": 0,
-        "modified": false
-      },
-      ".vscode": {}
-    }
+    "www": {}
   },
   "$version": 1
 }
